@@ -55,5 +55,5 @@ class job_hunt_agent:
         print(self.mock_interview(answers))
 
 
-agent = JobHuntAgent(company="Meta", role="SWE")
+agent = job_hunt_agent(company="Meta", role="SWE")
 agent.run()
